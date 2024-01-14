@@ -228,3 +228,25 @@ button.btn.see-more-btn {
     display: block;
 }
 
+/* feature product */
+.feature-product{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+h1.feature-product-title {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+p.feature-product-desc {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px; 
+    margin: 10px 0;
+}
