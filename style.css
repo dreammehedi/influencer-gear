@@ -1,3 +1,4 @@
+/* || Mehedi Hassan Miraj|| */
 /* google fonts import |poppins|inter|manrope| */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
 *{
@@ -7,7 +8,6 @@
     /* font-family: 'Inter', sans-serif;
     font-family: 'Manrope', sans-serif; */
     font-family: 'Poppins', sans-serif;
-
 }
 .container{
     width: 98%;
@@ -52,8 +52,8 @@ img{
     border-color: #E02C6D;
     color: #E02C6D;
 }
-
 /* header */
+/* navigation */
 nav {
     display: flex;
     justify-content: space-between;
@@ -64,6 +64,7 @@ nav {
 /* bars & shopping cart */
 .bars, .shopping-cart{
     display: none;
+    cursor: pointer;
 }
 .bars i {
     font-size: 24px;
@@ -75,7 +76,6 @@ a.logo-title {
     font-size: 24px;
     font-weight: 700;
 }
-
 /* menu */
 ul.menu {
     display: flex;
@@ -98,7 +98,6 @@ ul.menu li i{
 ul.menu li:hover i{
     color: #E02C6D;
 }
-
 /* banner */
 .banner {
     display: flex;
@@ -111,7 +110,6 @@ h1.banner-content-title {
     font-weight: 700;
     line-height: 70px;
 }
-
 p.banner-content-desc {
     font-weight: 600;
     margin: 1rem 0;
@@ -120,11 +118,9 @@ button.btn.banner-btn i {
     font-size: 1rem;
     margin-left: 10px;
 }
-
 .banner-image {
     position: relative;
 }
-
 .banner-image::before {
     content: "";
     position: absolute;
@@ -137,7 +133,6 @@ button.btn.banner-btn i {
     z-index: -1;
     border-radius: 50%;
 }
-
 .banner-image img {
     border-radius: 50%;
     border: 3px solid #e1e1ff63;
@@ -145,7 +140,6 @@ button.btn.banner-btn i {
     width: auto;
     max-height: 400px;
 }
-
 /* company */
 .company{
     display: flex;
@@ -184,7 +178,6 @@ h2.popular-colluction-title {
     font-size: 24px;
     font-weight: 400;
 }
-
 .colluction-item-content p {
     color: #787885;
     font-family: Inter;
@@ -201,7 +194,6 @@ h2.popular-colluction-title {
     line-height: 22px; 
     letter-spacing: 0.1px;
 }
-
 .colluction-item-content span i {
     font-size: 16px;
     color: #FB8200;
@@ -211,11 +203,9 @@ h2.popular-colluction-title {
     flex-direction: column;
     gap: 5px 0;
 }
-
 .colluction-item img {
     max-width: 600px;
 }
-
 .colluction-item {
     border-radius: 5px;
     background: #FFF;
@@ -227,7 +217,6 @@ button.btn.see-more-btn {
     margin-left: auto;
     display: block;
 }
-
 /* feature product */
 .feature-product{
     display: grid;
@@ -235,14 +224,12 @@ button.btn.see-more-btn {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
 }
-
 h1.feature-product-title {
     color: #0A0826;
     font-size: 38px;
     font-weight: 700;
     line-height: 60px;
 }
-
 p.feature-product-desc {
     color: #6C6C6C;
     font-size: 16px;
@@ -264,12 +251,10 @@ footer{
     text-align: center;
     gap: 10px 0;
 }
-
 h1.footer-title {
     font-size: 24px;
     font-weight: 700;
 }
-
 .footer-content p {
     color: #D9DBE1;
     font-family: Manrope;
@@ -277,7 +262,6 @@ h1.footer-title {
     font-weight: 700;
     line-height: 24px; /* 171.429% */
 }
-
 ul.social-menu {
     display: flex;
     justify-content: center;
@@ -285,7 +269,6 @@ ul.social-menu {
     gap: 10px;
     margin-top: 1rem;
 }
-
 ul.social-menu li a {
     background: #3e3c3cd9;
     border-radius: 50%;
@@ -297,7 +280,7 @@ ul.social-menu li a {
     color: #fff;
     transition: all .5s ease;
 }
-
 ul.social-menu li a:hover {
     background: #E02C6D;
 }
+/* || Mehedi Hassan Miraj|| */

@@ -1,3 +1,4 @@
+/* || Mehedi Hassan Miraj|| */
 /* Small devices */
 @media screen and (max-width: 576px) { 
     .container{
@@ -11,7 +12,6 @@
     ul.menu{
         display: none;
     }
-
     /* banner */
     .banner{
         flex-direction: column;
@@ -51,9 +51,7 @@
     .feature-product-img{
         order: 2;
     }
-
 }
-
 /* Medium devices (tablets, laptop) */
 @media screen and (min-width: 576px) and (max-width: 768px) {
     /* nav */
@@ -107,3 +105,4 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+/* || Mehedi Hassan Miraj|| */
