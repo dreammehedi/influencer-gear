@@ -139,3 +139,12 @@ button.btn.banner-btn i {
     max-width: 400px;
     max-height: 400px;
 }
+
+/* company */
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem 3rem;
+}
