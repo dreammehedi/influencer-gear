@@ -1,0 +1,24 @@
+
+/* Small devices */
+@media screen and (max-width: 576px) { 
+    .container{
+        width: 95%;
+    }
+    /* bars */
+    .bars, .shopping-cart{
+        display: block;
+    }
+    /* menu */
+    ul.menu{
+        display: none;
+    }
+}
+
+/* // Medium devices (tablets, laptop) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    /* nav */
+    nav{
+        flex-direction: column;
+        gap: 2rem 0;
+    }
+}
